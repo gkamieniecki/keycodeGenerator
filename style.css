@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    /* border: 3px solid green; */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Bangers', cursive;
+    color: rgb(59, 59, 59);
+    overflow: hidden;
+    background: rgb(6, 223, 212)
+}
+
+#display {
+    text-align: center;
+    display: table;
+    height: 100%;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+p.text-display {
+    display: inline-block;
+    color: rgb(59, 59, 59);
+    text-decoration: none;
+    text-align: center;
+    margin: 80px auto;
+    padding: 15px 20px;
+    background:rgb(238, 148, 223);
+    border-radius: 5px;
+    min-width: 24px;
+    font-size: 40px;
+}
+
+#keycode-display {
+    color: rgb(59, 59, 59);
+    font-size: 200px;
+    text-decoration: none;
+    text-align: center;
+    margin: 20px auto;
+    padding: 15px 20px;
+}
+
+#cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px;
+    flex: 1;
+    max-width: calc(25% - 20px);
+    box-shadow: 0 14px 26px rgba(0, 0, 0, 0.04);
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+}
+
+.card-main {
+    font-size: 30px;
+}
+
+.card-header {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    border-bottom: 1px solid rgb(161, 161, 161);
+    background-color: rgb(238, 148, 223);
+    padding: 5px 10px;
+    position: relative;
+}
+
+.card-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.main-description {
+    font-size: 28px;
+    text-align: center;
+    min-height: 35px;
+}
+
