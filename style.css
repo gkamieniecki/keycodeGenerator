@@ -28,7 +28,7 @@ p.text-display {
     color: rgb(59, 59, 59);
     text-decoration: none;
     text-align: center;
-    margin: 80px auto;
+    margin: 80px 80px 40px 80px;
     padding: 15px 20px;
     background:rgb(238, 148, 223);
     border-radius: 5px;
@@ -42,7 +42,7 @@ p.text-display {
     font-size: 200px;
     text-decoration: none;
     text-align: center;
-    margin: 20px 20px 80px 20px;
+    margin: 20px 20px 40px 20px;
     padding: 15px 20px;
 }
 
@@ -74,10 +74,10 @@ p.text-display {
     text-align: center;
     font-size: 18px;
     font-weight: 600;
-    border-bottom: 1px solid rgb(161, 161, 161);
     background-color: rgb(238, 148, 223);
     padding: 5px 10px;
     position: relative;
+    border: 2px solid rgb(218, 129, 203);
 }
 
 .card-main {
@@ -92,6 +92,22 @@ p.text-display {
     font-size: 28px;
     text-align: center;
     min-height: 35px;
+}
+
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(6, 223, 212);
 }
 
 @media (max-width: 750px) {
